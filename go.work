@@ -1,0 +1,10 @@
+go 1.21.3
+
+use (
+	./broker-service
+	./front-end
+	./authentication-service
+	./logger-service
+	./mail-service
+	./listener-service
+)
